@@ -21,7 +21,7 @@
   
 ```
 dependencies {
-	        implementation 'com.github.CY12:FlexibleViewDemo:Tag'
+	        implementation 'com.github.CY12:FlexibleViewDemo:0.1'
 	}
 ```
   
