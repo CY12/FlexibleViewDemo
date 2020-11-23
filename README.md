@@ -15,7 +15,7 @@
 ```
       
   
- 1. 第二步
+ 2. 第二步
   
     
   
@@ -33,7 +33,7 @@ dependencies {
       
   
 	```
-		TextView textView = new TextView(this);
+	    TextView textView = new TextView(this);
 	    textView.setText("RelativeLayout动态添加VIEW");
 	    textView.setTextSize(20);
 	    FlexibleViewTools.withRelative(textView,relative).setGravity(RelativeViewPart.CENTER_IN_PARENT);// relative 是textView放在该布局下的viewgroup
