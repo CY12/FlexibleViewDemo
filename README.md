@@ -39,9 +39,9 @@ dependencies {
 	    FlexibleViewTools.withRelative(textView,relative).setGravity(RelativeViewPart.CENTER_IN_PARENT);// relative 是textView放在该布局下的viewgroup
 	    
 	    TextView textView1 = new TextView(this);
-            textView1.setText("FlexibleViewTools rlRelative");
-            textView1.setTextSize(20);
-            FlexibleViewTools.withRelative(textView1,rlRelative).setGravity(RelativeViewPart.CENTER_IN_PARENT);
+        textView1.setText("LinearLayout 动态添加VIEW");
+        textView1.setTextSize(20);
+        FlexibleViewTools.withLinear(textView1,linear).setLeft(50).setTop(200);
 	```
           
   
